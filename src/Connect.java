@@ -15,7 +15,7 @@ public class Connect {
         try{  
             Class.forName("com.mysql.jdbc.Driver");
 
-            // Nanti prk nya diubah sesuai dengan nama db yang mau di connect
+            // Diubah sesuai dengan nama Database yang mau di connect
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/agemowatch","root","");  
             stmt = con.createStatement();  
             
